@@ -114,7 +114,8 @@
     :xType "ordinal"
     :animation true}
    [:> rvis/XAxis]
-   [:> rvis/YAxis  {:style {:font-size 10}}]
+   [:> rvis/YAxis  {:left 15 
+                    :style {:font-size 10}}]
    [:> rvis/VerticalBarSeries
     {:data @data
      :color "#D9E3DA"}]])
