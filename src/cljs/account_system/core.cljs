@@ -238,7 +238,7 @@
        [:h4 {:style {:text-align "center"}} "Expenses by month:"]
        [app-scaffold by-month-amount-chart by-months-chart-data]
        [:h4 {:style {:text-align "center"}} "Current month expenses:"]
-       [:p (str "Spend this month: " (-> (expenses-by-month transactions)
+       [:p (str "Spent this month: " (-> (expenses-by-month transactions)
                                          (find (get-current-month))
                                          (second)) " " currency)]
        [:p (str "Left: " @account-cash " " currency)]

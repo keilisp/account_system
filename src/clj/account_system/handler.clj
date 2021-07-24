@@ -7,9 +7,7 @@
 
 (def mount-target
   [:div#app
-   [:h2 "Welcome to account_system"]
-   [:p "please wait while Figwheel/shadow-cljs is waking up ..."]
-   [:p "(Check the js console for hints if nothing exciting happens.)"]])
+   [:h2 "Welcome to Accounting system"]])
 
 (defn head []
   [:head
