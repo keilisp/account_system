@@ -43,7 +43,7 @@
                             (< @account-cash @amount))
         invalid-receiver? (str/blank? (str/trim @receiver))]
     (when invalid-receiver?
-      (js/alert "Empty receiver!"))
+      (js/alert "Please fill in the receiver field!"))
     (when invalid-amount?
       (js/alert "Invalid amount!"))
     (if (or invalid-amount? invalid-receiver?)
